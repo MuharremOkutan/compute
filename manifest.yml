@@ -1,0 +1,9 @@
+applications:
+- path: compute.jar
+  memory: 2048M
+  instances: 1
+  domain: ng.mybluemix.net
+  name: compute
+  host: compute
+  disk_quota: 2048M
+  
