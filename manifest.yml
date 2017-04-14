@@ -1,6 +1,6 @@
----
 applications:
-- name: compute
+  path: .
+  name: compute
   memory: 2048M
   instances: 1
   domain: ng.mybluemix.net
