@@ -1,7 +1,7 @@
 ---
 applications:
-- path: compute.jar
-  name: compute
+- name: compute
+  path: ./compute.jar
   memory: 2048M
   instances: 1
   host: compute
