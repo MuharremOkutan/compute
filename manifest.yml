@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 2048M
+  instances: 1
+  name: compute
+  disk_quota: 2048M
+  services:
+  - availability-monitoring-auto
