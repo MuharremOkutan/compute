@@ -1,5 +1,6 @@
 applications:
-- path: https://github.com/Glepp/compute.git
+- buildpack: https://github.com/Glepp/compute.git
+  command: java -jar compute.jar
   memory: 2048M
   instances: 1
   domain: ng.mybluemix.net
