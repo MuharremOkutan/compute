@@ -1,5 +1,5 @@
 applications:
-  path: .
+- path: .
   name: compute
   memory: 2048M
   instances: 1
