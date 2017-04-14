@@ -1,5 +1,5 @@
 applications:
-- buildpack: https://github.com/Glepp/compute.git
+  path: /
   command: java -jar compute.jar
   memory: 2048M
   instances: 1
