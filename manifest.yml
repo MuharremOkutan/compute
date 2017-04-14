@@ -1,3 +1,4 @@
+---
 applications:
 - path: compute.jar
   name: compute
@@ -6,4 +7,4 @@ applications:
   host: compute
   disk_quota: 2048M
   health-check-type: none
-  
+  buildpack: none
