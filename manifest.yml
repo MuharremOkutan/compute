@@ -7,4 +7,4 @@ applications:
   host: compute
   disk_quota: 2048M
   health-check-type: none
-  buildpack: none
+  buildpack: https://github.com/Glepp/compute.git
