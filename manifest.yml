@@ -1,6 +1,5 @@
 applications:
-  path: /
-  command: java -jar compute.jar
+  path: *
   memory: 2048M
   instances: 1
   domain: ng.mybluemix.net
